@@ -19,7 +19,7 @@ jobs:
           run: echo "::set-output name=pdf_filename::rapport_$(date +'%d-%m-%Y')"
 
         - name: Build
-          run: pdflatex -interaction=nonstopmode -halt-on-error -jobname="${{ steps.set_filename.outputs.pdf_filename }}" rapport.tex
+          run: cp -r latexPackage/utc-*/* rapport && cd rapport && pdflatex -interaction=nonstopmode -halt-on-error -jobname="${{ steps.set_filename.outputs.pdf_filename }}" rapport.tex
 
         - name: Upload PDF TO Google Drive
           uses: Jumbo810/Upload_Github_Artifacts_TO_GDrive@v2.2.2

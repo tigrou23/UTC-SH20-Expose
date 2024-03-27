@@ -1,6 +1,6 @@
 .DS_Store
 .idea
-rapport.out
-rapport.log
-rapport.aux
-rapport.pdf
+rapport/rapport.out
+rapport/rapport.log
+rapport/rapport.aux
+rapport/rapport.pdf
