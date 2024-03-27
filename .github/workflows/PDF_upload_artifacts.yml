@@ -1,0 +1,24 @@
+name: Upload PDF to GitHub artifacts
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-examples:
+    runs-on: ubuntu-latest
+    container:
+      image: alpine:latest
+    steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+
+        - name: Install dependencies
+          run: apk update && apk add texmf-dist texlive texmf-dist-latexextra nodejs
+
+        - name: Build
+          run: pdflatex -interaction=nonstopmode -halt-on-error -jobname="rapport" rapport.tex
+
+        - name: Upload Artifact
+          uses: actions/upload-artifact@v4
+          with:
+            name: rapport.pdf
+            path: rapport.pdf
