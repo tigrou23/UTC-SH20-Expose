@@ -36,6 +36,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.CICD_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: rapport.pdf
+          asset_path: rapport/rapport.pdf
           asset_name: rapport.pdf
           asset_content_type: pdf
