@@ -24,7 +24,7 @@ jobs:
         - name: Upload PDF TO Google Drive
           uses: Jumbo810/Upload_Github_Artifacts_TO_GDrive@v2.2.2
           with:
-            target: ${{ steps.set_filename.outputs.pdf_filename }}.pdf
+            target: rapport/${{ steps.set_filename.outputs.pdf_filename }}.pdf
             credentials: ${{ secrets.GDRIVE_TOKEN }}
             parent_folder_id: ${{ secrets.GDRIVE_FOLDER }}
             override: true
