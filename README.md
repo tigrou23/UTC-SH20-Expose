@@ -1,3 +1,7 @@
+<p align="center">
+    <img src='https://upload.wikimedia.org/wikipedia/fr/thumb/4/45/Logo_UTC_2018.svg/2560px-Logo_UTC_2018.svg.png' width='250' >
+</p>
+
 # Exposé 4 "Le français et ses évolutions"
 
 ## Auteurs
