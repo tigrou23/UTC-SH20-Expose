@@ -33,7 +33,7 @@ Questions à poser (à compléter) :
 ## I. D'où vient le français ?
 ici on parle de l'histoire de la langue française, de ses origines, de ses influences, de son évolution. Se référer au texte de 14 pages.
 
-## II. Les Differents changements linguistiques
+## II. Les différents changements linguistiques
 
 ### 1. Evolutions phonétiques et phonologiques
 
