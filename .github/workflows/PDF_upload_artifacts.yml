@@ -1,7 +1,7 @@
 name: Upload PDF to GitHub artifacts
 on:
   push:
-    branches: [ main ]
+    branches: [ test-ci ]
 jobs:
   build-examples:
     runs-on: ubuntu-latest
@@ -17,8 +17,18 @@ jobs:
         - name: Build
           run: cp -r latexPackage/utc-*/* rapport && cd rapport && pdflatex -interaction=nonstopmode -halt-on-error rapport.tex
 
+        - name: Create index.html
+          run: echo "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><meta http-equiv='refresh' content='5;url=rapport.pdf'><title>Redirection vers le PDF</title></head></html>" > public/index.html
+
+        - name: Deploy to GitHub Pages
+          uses: JamesIves/github-pages-deploy-action@3.7.1
+          with:
+            FOLDER: public
+
         - name: Upload Artifact
           uses: actions/upload-artifact@v4
           with:
             name: rapport.pdf
             path: rapport/rapport.pdf
+
+            
