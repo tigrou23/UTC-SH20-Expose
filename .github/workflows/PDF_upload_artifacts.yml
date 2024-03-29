@@ -33,7 +33,7 @@ jobs:
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v3.8.0
           with:
-            github_token: ${{ secrets.CICD_TOKEN }}
+            personal_token: ${{ secrets.CICD_TOKEN }}
             publish_dir: public
             allow_empty_commit: true
             force_orphan: true
