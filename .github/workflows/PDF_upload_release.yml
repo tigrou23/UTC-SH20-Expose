@@ -18,6 +18,9 @@ jobs:
       - name: Build
         run: cp -r latexPackage/utc-*/* rapport && cd rapport && pdflatex -interaction=nonstopmode -halt-on-error rapport.tex
 
+      - name: Publish to Pages
+        run: cp rapport/rapport.pdf /docs/rappport.pdf
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
