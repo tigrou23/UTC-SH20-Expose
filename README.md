@@ -43,13 +43,15 @@ ici on parle de l'histoire de la langue française, de ses origines, de ses infl
 
 ### 4. Le langage des jeunes
 
-## III. L'impact de la communication numérique sur la langue française
+## III. Les Differents changements linguistiques
 
-### 1. Quels sont les changements apportés par la communication numérique ?
+### 1. Evolutions phonétiques et phonologiques
 
-### 2. Textos des années 2000 VS textos d'aujourd'hui
+### 2. Croissance Syntaxique et morphologique
 
 ### 3. La relation entre l'écrit et l'oral ?
+
+### 4. Quels sont les changements apportés par la communication numérique ?
 
 ## IV. Analyse approfondie
 
