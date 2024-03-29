@@ -1,6 +1,4 @@
 name: Upload PDF to GitHub artifacts
-permissions:
-  contents: write
 on:
   push:
     branches: [ main ]
