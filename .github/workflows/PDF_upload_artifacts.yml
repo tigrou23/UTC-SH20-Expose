@@ -18,7 +18,7 @@ jobs:
           run: cp -r latexPackage/utc-*/* rapport && cd rapport && pdflatex -interaction=nonstopmode -halt-on-error rapport.tex
 
         - name: Create index.html
-          run: echo "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><meta http-equiv='refresh' content='5;url=rapport.pdf'><title>Redirection vers le PDF</title></head></html>" > public/index.html
+          run: echo "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><meta http-equiv='refresh' content='5;url=../rapport/rapport.pdf'><title>Redirection vers le PDF</title></head></html>" > public/index.html
 
         - name: Deploy to GitHub Pages
           uses: JamesIves/github-pages-deploy-action@3.7.1
