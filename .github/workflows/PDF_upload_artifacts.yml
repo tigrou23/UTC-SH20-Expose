@@ -1,6 +1,4 @@
 name: Upload PDF to GitHub artifacts
-permissions:
-  contents: write
 on:
   push:
     branches: [ test-ci ]
@@ -22,11 +20,12 @@ jobs:
         - name: Create index.html
           run: mkdir /public && echo "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><meta http-equiv='refresh' content='5;url=../rapport/rapport.pdf'><title>Redirection vers le PDF</title></head></html>" > /public/index.html
 
-        - name: Deploy to GitHub Pages
-          uses: JamesIves/github-pages-deploy-action@v4
+        - name: Deploy
+          uses: peaceiris/actions-gh-pages@v3
           with:
-            FOLDER: /public
-
+            github_token: ${{ secrets.CICD_TOKEN }}
+            publish_dir: /public
+            
         - name: Upload Artifact
           uses: actions/upload-artifact@v4
           with:
