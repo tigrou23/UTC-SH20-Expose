@@ -42,7 +42,7 @@ jobs:
           asset_content_type: pdf
 
       - name: Create index.html
-        run: mkdir public && echo "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><meta http-equiv='refresh' content='5;url=./rapport.pdf'><title>Redirection vers le PDF</title></head></html>" > public/index.html
+        run: mkdir public && echo "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><meta http-equiv='refresh' content='0;url=./rapport.pdf'><title>Redirection vers le PDF</title></head></html>" > public/index.html
 
       - name: Move PDFs
         run: mv rapport/rapport.pdf public
