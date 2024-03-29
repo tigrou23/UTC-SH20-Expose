@@ -60,4 +60,3 @@ ici on parle de l'histoire de la langue française, de ses origines, de ses infl
 ### 2. Cette peur de l'avenir est-elle une peur de l'autre ?
 
 ### 3. Doit-on protéger la langue française ? Si oui, comment ?
-
