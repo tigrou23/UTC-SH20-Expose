@@ -33,17 +33,7 @@ Questions à poser (à compléter) :
 ## I. D'où vient le français ?
 ici on parle de l'histoire de la langue française, de ses origines, de ses influences, de son évolution. Se référer au texte de 14 pages.
 
-## II. La langue française est-elle en danger ?
-
-### 1. Qu'est-ce qu'une langue en danger ?
-
-### 2. Les néologismes, un enrichissement ou une invasion ?
-
-### 3. Le franglais peut-il être considéré comme une menace pour la langue française ?
-
-### 4. Le langage des jeunes
-
-## III. Les Differents changements linguistiques
+## II. Les Differents changements linguistiques
 
 ### 1. Evolutions phonétiques et phonologiques
 
@@ -52,6 +42,16 @@ ici on parle de l'histoire de la langue française, de ses origines, de ses infl
 ### 3. La relation entre l'écrit et l'oral ?
 
 ### 4. Quels sont les changements apportés par la communication numérique ?
+
+## III. La langue française est-elle en danger ?
+
+### 1. Qu'est-ce qu'une langue en danger ?
+
+### 2. Les néologismes, un enrichissement ou une invasion ?
+
+### 3. Le franglais peut-il être considéré comme une menace pour la langue française ?
+
+### 4. Le langage des jeunes
 
 ## IV. Analyse approfondie
 
